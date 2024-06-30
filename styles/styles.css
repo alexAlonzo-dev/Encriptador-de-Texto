@@ -30,7 +30,7 @@ header {
     position: relative;
 }
 
-h1 {
+.text_area {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 32px;
@@ -108,4 +108,9 @@ h1 {
     color: gray;
     border-radius: 3%;
     border: none;
+}
+
+input{
+    width: 550px;
+    height: 315px;
 }
