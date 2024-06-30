@@ -1,0 +1,328 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 32px;
+    color: #003366;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.logo{
+    height: 80px;
+    width: 100px;
+    padding: 1%;
+    border-radius: 20%;
+}
+
+header{
+    background-color: #003366;
+    margin: 0;
+    padding: 0;
+    height: 110px;
+}
+
+.botones{
+    background-color: #66CCFF;
+    width: 328px;
+    height: 67px;
+
+    margin-left: 90px;
+    margin-top: 22px;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 16px;
+    color: gray;
+}
+
+.imagen_advice{
+    width: 16px;
+    height: 16px;
+}
+
+.resultado{
+    display: grid;
+    float: right;
+    width: 400px;
+    height: 944px;
+    border-radius: 2%;
+    border: 6px solid #003366;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    place-content: center;
+    margin-right: 35px;
+    z-index: 3;
+}
+
+.texto_uno{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: 10;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 24px;
+    margin-top: 35px;
+}
+
+.texto_dos{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 16px;
+}
+
+.imagen_buscando{
+    width: 336px;
+    height: 304px;
+}
+
+.advice_texto{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 12px;
+    color: gray;
+
+    margin-left: 90px;
+    margin-top: 350px;
+}
+*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 32px;
+    color: #003366;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.logo {
+    height: 80px;
+    width: 100px;
+    padding: 1%;
+    border-radius: 20%;
+}
+
+header {
+    background-color: #003366;
+    margin: 0;
+    padding: 0;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.botones {
+    background-color: #66CCFF;
+    width: 328px;
+    height: 67px;
+    margin-left: 90px;
+    margin-top: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 16px;
+    color: gray;
+    float: left;
+    border-radius: 3%;
+    border: none;
+}
+
+.imagen_advice {
+    width: 16px;
+    height: 16px;
+}
+
+.resultado {
+    width: 400px;
+    height: 944px;
+    border-radius: 2%;
+    border: 6px solid #003366;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.texto_uno {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: 10;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 24px;
+    margin-top: 35px;
+}
+
+.texto_dos {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 16px;
+}
+
+.imagen_buscando {
+    width: 336px;
+    height: 304px;
+}
+
+.advice_texto {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 12px;
+    color: gray;
+    margin-left: 90px;
+    margin-top: 20px;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #003366;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.logo {
+    height: 80px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 90px;  /* Adjusted margin */
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #003366;
+    margin-top: 40px;
+}
+
+.resultado {
+    width: 400px;
+    height: 550px;
+    border-radius: 2%;
+    border: 6px solid #003366;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.texto_uno {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 35px;
+}
+
+.texto_dos {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.imagen_buscando {
+    width: 336px;
+    height: 304px;
+}
+
+.advice_texto {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: left;
+}
+
+.imagen_advice {
+    width: 16px;
+    height: 16px;
+}
+
+.botones-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 90px;
+    margin-top: 20px;
+    gap: 10px; /* Adds space between the buttons */
+}
+
+.botones {
+    width: 328px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+    border-radius: 3%;
+    border: none;
+}
