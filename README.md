@@ -1,0 +1,1 @@
+Este respositorio guarda lo esencial para cumplir con el reto de encriptador de texto, incluye la estructura html, los estilos necesarios para hacer la pagina responsiva, el archivo javascript con la funcionalidad de encriptar y manipulacion del DOM asi como los archivos de imagenes que contiene la pagina web
