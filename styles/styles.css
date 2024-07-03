@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
@@ -12,6 +13,8 @@ header {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    width: 100%; /* Ensure header covers full width */
+    box-sizing: border-box;
 }
 
 .logo {
@@ -22,12 +25,13 @@ header {
 
 .container {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column; /* Change to column by default */
+    align-items: center;
     margin-top: 40px;
     width: 100%;
     max-width: 1200px;
-    margin-left: 90px;  /* Adjusted margin */
-    position: relative;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .text_area {
@@ -36,11 +40,21 @@ header {
     font-size: 32px;
     color: #003366;
     margin-top: 40px;
+    width: 100%; /* Make full width */
+    text-align: center;
+}
+
+.text_area input {
+    width: 100%; /* Make full width */
+    max-width: 550px;
+    height: 150px;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 
 .resultado {
-    width: 400px;
-    height: 550px;
+    width: 100%; /* Make full width */
+    max-width: 400px;
     border-radius: 2%;
     border: 6px solid #003366;
     display: flex;
@@ -48,9 +62,10 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: 35px;
+    margin: 20px 0; /* Add margin on top and bottom */
     background-color: white;
+    padding: 20px; /* Add padding */
+    box-sizing: border-box;
 }
 
 .texto_uno {
@@ -67,8 +82,9 @@ header {
 }
 
 .imagen_buscando {
-    width: 336px;
-    height: 304px;
+    width: 100%; /* Make full width */
+    max-width: 336px;
+    height: auto;
 }
 
 .advice_texto {
@@ -76,31 +92,29 @@ header {
     font-weight: 400;
     font-size: 12px;
     color: gray;
-    position: relative;
-    top: -150px; /* Mueve el texto 30px arriba */
-    left: 95px; /* Ajusta según tu diseño */
-   
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 .imagen_advice {
     width: 16px;
     height: 16px;
+    margin-right: 5px;
 }
 
 .botones-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     display: flex;
-    justify-content: flex-start;
-    margin-left: 90px;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
     margin-top: 20px;
-    gap: 10px; /* Adds space between the buttons */
+    gap: 10px;
 }
 
 .botones {
-    width: 328px;
+    width: 100%; /* Make full width */
+    max-width: 328px;
     height: 67px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -110,7 +124,59 @@ header {
     border: none;
 }
 
-input{
-    width: 550px;
-    height: 315px;
+/* Media Queries */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .text_area {
+        width: auto; /* Adjust to content */
+        text-align: left;
+    }
+
+    .text_area input {
+        width: 550px;
+        height: 315px;
+    }
+
+    .resultado {
+        margin-left: auto;
+        margin-right: 35px;
+    }
+
+    .advice_texto {
+        justify-content: flex-start;
+        margin-left: 95px;
+        position: relative;
+        top: -150px;
+    }
+
+    .botones-container {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 90px;
+    }
+
+    .botones {
+        width: 328px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .text_area input {
+        width: 550px;
+        height: 315px;
+    }
+
+    .resultado {
+        width: 400px;
+        height: 550px;
+    }
+
+    .imagen_buscando {
+        width: 336px;
+        height: 304px;
+    }
 }
